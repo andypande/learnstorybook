@@ -25,7 +25,7 @@ export default {
 
 export const allButtons = () => (
   <div>
-    <Button appearance="primary">Primary</Button>
+    <Button ButtonWrapper={ButtonWrapper} appearance="primary">Primary</Button>
     <Button appearance="secondary">Secondary</Button>
     <Button appearance="tertiary">Tertiary</Button>
     <Button appearance="outline">Outline</Button>
