@@ -17,7 +17,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "CHROMATIC_APP_CODE=gcey415xs5s chromatic"
+    "chromatic": "CHROMATIC_APP_CODE=gcey415xs5s chromatic",
+    "build-storybook-docs": "build-storybook -s public --docs"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,7 +36,9 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^5.2.6",
     "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-docs": "^5.2.6",
     "@storybook/addon-knobs": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",
     "@storybook/addon-storysource": "^5.2.6",
